@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Docker**
 
-- 💬 Ask me about **Django, Database**
+- 💬 Ask me about **Python, LLM, Docker, Database**
 
 - 📫 How to reach me **ehtesumulislam@gmail.com**
 
