@@ -59,14 +59,4 @@
 
 ### 📊 GitHub Stats
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ehtesum&show_icons=true&locale=en&layout=compact" />
-</p>
 
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ehtesum&show_icons=true&locale=en" />
-</p>
-
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ehtesum" />
-</p>
