@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ehtesum-Ul-Islam</h1>
-<h3 align="center">DevOps & Backend Engineer | Master's Student | Building scalable systems 🚀</h3>
+<h3 align="center">DevOps & Backend Engineer | Building scalable systems 🚀</h3>
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=ehtesum&label=Profile%20views&color=0e75b6&style=flat" alt="ehtesum" />
