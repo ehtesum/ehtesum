@@ -9,7 +9,7 @@
 
 ### 👨‍💻 About Me
 
-- 🎓 Master's student in Software Engineering & Digital Transformation (Final stage – thesis ongoing)
+- 🎓 Master's in Software Engineering & Digital Transformation 
 - 💼 2+ years experience in **DevOps & Backend Engineering**
 - ☁️ Experienced with **Azure, CI/CD pipelines, and cloud infrastructure**
 - 🐍 Strong in **Python, Django, and system design**
@@ -34,7 +34,6 @@
 
 - 📦 Mastering **Docker & containerized environments**
 - ☁️ Strengthening **cloud & DevOps practices**
-- 🧪 Preparing for **DevOps certifications**
 - 🧠 Building smarter systems using **AI & automation**
 
 ---
@@ -55,8 +54,5 @@
 
 📫 Email: **ehtesumulislam@gmail.com**
 
----
-
-### 📊 GitHub Stats
 
 
