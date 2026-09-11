@@ -20,6 +20,12 @@
 - 💼 **2+ years of professional engineering experience** building scalable backend systems, managing Azure cloud infrastructure, and automating CI/CD pipelines
 - 🧠 **Research Focus:** Reliable AI systems, multi-agent multimodal reasoning, runtime model orchestration, process verification, and selective abstention to eliminate hallucinations
 
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ehtesum&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff" alt="GitHub Stats" height="150" />
+  &nbsp;
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ehtesum&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e" alt="Top Languages" height="150" />
+</p>
+
 ---
 
 ### 🔬 Featured Research & Open-Source Projects
@@ -31,13 +37,40 @@
 - **[DubStream](https://github.com/ehtesum/DubStream):** High-throughput media and audio streaming pipeline for synchronised multilingual dubbing.
 - **[order_forecast_from_history](https://github.com/ehtesum/order_forecast_from_history):** Time-series demand forecasting ML pipeline with rolling feature engineering.
 
+#### 📐 MACT 5-Stage Orchestration Architecture
+
+```mermaid
+flowchart LR
+    A["📄 Input Document & Query"] --> B["1. Context Agent<br/><i>(Layout & Modality Parser)</i>"]
+    B --> C["2. Planning Agent<br/><i>(Sub-Goal Decomposition)</i>"]
+    C --> D["3. Execution Agent<br/><i>(Specialized VLM Tools)</i>"]
+    D --> E["4. Verification Agent<br/><i>(Step-Level Self-Check)</i>"]
+    E -->|Consistent| F["5. Decision Agent<br/><i>(Consensus Gate)</i>"]
+    E -->|Divergence| C
+    F --> G["🎯 Grounded Output"]
+    F -->|Low Confidence| H["🛑 Selective Abstention"]
+
+    classDef default fill:#161b22,stroke:#30363d,stroke-width:1px,color:#e6edf3;
+    classDef terminal fill:#21262d,stroke:#555555,stroke-width:1px,color:#ffffff;
+    class G,H terminal;
+```
+
 ---
 
-### 📄 Peer-Reviewed Publication
+### 📄 Publications & Research
 
+#### Peer-Reviewed Conference Paper
 - **"Low-Cost Heart Rate Sensor and Mental Stress Detection Using Machine Learning"**  
   *5th International Conference on Trends in Electronics and Informatics (ICOEI 2021)*  
   IEEE Xplore • [DOI: 10.1109/ICOEI51242.2021.9452873](https://doi.org/10.1109/ICOEI51242.2021.9452873)
+
+#### Manuscripts & Preprints
+- **"Grounded Sequential Decision Processes with Decoupled Process Verification and Adaptive Test-Time Compute for Visual Document Reasoning"**  
+  *Ehtesum-Ul-Islam (Manuscript in Preparation, 2026)*  
+  Focus: Multi-agent coordination, decoupled step verification, adaptive compute scaling, and hallucination elimination in visual document understanding.
+- **"Empirical Investigation of DevSecOps Practices, Automation, and Security Pipeline Integration in Cloud Infrastructure"**  
+  *M.Sc. Research Thesis, LUT University (Dec 2025)*  
+  Focus: Automated vulnerability scanning, CI/CD pipeline integration, container security, and infrastructure reliability across cloud environments.
 
 ---
 
