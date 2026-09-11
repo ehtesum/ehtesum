@@ -19,7 +19,6 @@
 - 🎓 **B.Sc. in Computer Science & Engineering** from **North South University, Bangladesh** (2021)
 - 💼 **2+ years of professional engineering experience** building scalable backend systems, managing Azure cloud infrastructure, and automating CI/CD pipelines
 - 🧠 **Research Focus:** Reliable AI systems, multi-agent multimodal reasoning, runtime model orchestration, process verification, and selective abstention to eliminate hallucinations
-- 🌍 Based in **Espoo / Helsinki, Finland 🇫🇮**
 
 ---
 
@@ -48,6 +47,13 @@
 - **Backend & APIs:** Python, FastAPI, Django, Flask, RESTful APIs, PostgreSQL, SQLite, MongoDB, RabbitMQ
 - **Cloud & DevOps:** Microsoft Azure, Docker, Kubernetes, CI/CD (GitHub Actions, Bitbucket), Linux/Bash, NGINX
 - **Languages:** Python (Advanced), JavaScript (ES6+), C++, Java, PHP
+
+---
+
+### 📜 Certifications
+
+- **Docker & Kubernetes Masterclass: Build, Deploy & Scale on AWS, Azure & GCP** — *Udemy*
+- **The Ultimate DevOps Bootcamp** — *Udemy*
 
 ---
 
