@@ -3,76 +3,91 @@
 **Software Engineer & Systems Researcher**  
 Specializing in High-Throughput Backend Systems, Network Protocol Engineering, and Reliable AI Architectures.
 
-[Portfolio & CV](https://ehtesum.github.io/portfolio_web/) • [LinkedIn](https://linkedin.com/in/ehtesum-ul-islam-01274a166/) • [Email](mailto:ehtesumulislam@gmail.com) • Finland
+[Portfolio & Website](https://ehtesum.github.io/) • [LinkedIn](https://www.linkedin.com/in/ehtesum/) • [Email](mailto:ehtesumulislam@gmail.com) • Finland
 
 ---
 
 ## About Me
 
-I build resilient backend services, high-throughput protocol engines, and calibrated AI architectures. My work focuses on deterministic systems engineering (C++, Python, Linux), cloud security, and reliable machine learning where model hallucination or uncalibrated failure carries real-world cost.
+I build resilient backend services, real-time telemetry ingestion pipelines, and calibrated AI architectures. My background combines hands-on production engineering (Python/Django, FastAPI, C++, PostgreSQL, Docker, Azure) with graduate research at LUT University focusing on inference-time compute allocation, causal verification, and calibrated selective prediction.
 
-- **M.Sc. in Software Engineering & Digital Transformation** — LUT University, Finland *(Dec 2025)*
+- **M.Sc. in Software Engineering & Digital Transformation** — LUT University, Finland *(2024 – Present | Thesis in progress)*
 - **B.Sc. in Computer Science & Engineering** — North South University, Bangladesh *(2021)*
-- **Core Engineering Principles**: DRY & KISS. I prioritize deterministic performance, explicit error boundaries, and zero-telemetry offline capabilities over unnecessary SaaS dependencies.
+- **Spoken Languages**: English (Professional Working Fluency), Finnish (Working Proficiency — Living in Finland)
+- **Core Principles**: Deterministic performance, explicit error boundaries, and zero-telemetry offline capabilities over unnecessary SaaS dependencies.
 
 ---
 
-## Featured Projects (5 Core Contributions)
+## Featured Projects (Active & Public Repositories)
 
-### 1. [MACT — Multi-Agent Document AI](https://github.com/ehtesum/MACT_multimodel)
-*Python • Vision-Language Models • Multi-Agent*  
-A 5-agent system for reading multi-page PDFs, charts, and tables. Uses specialized agents for planning, tool use, and verification, and safely declines to answer when visual data is blurry or missing (92.4% DocVQA accuracy).
-
----
-
-### 2. [DGD — Smart Reasoning Controller](https://github.com/ehtesum/dgd-framework)
-*PyTorch • Python • Test-Time Compute*  
-A lightweight controller that stops LLMs from jumping to false conclusions. Forces the model to test rival hypotheses before locking in an answer, cutting wasted tokens by 11% and speeding up inference by 40%.
+### 1. [Flash-Sale Distributed Booking Engine](https://github.com/ehtesum/flash-sale-booking-engine)
+*Python • Redis Lua • RabbitMQ • PostgreSQL • Kubernetes*  
+High-concurrency reservation backend engineered to guarantee zero overselling under flash-sale traffic spikes. Features atomic Redis Lua inventory locking, sliding-window rate limiting, Transactional Outbox pattern, and RabbitMQ dead-letter retry exchanges.
 
 ---
 
-### 3. [SEAL — Knowledge-Grounded AI](https://github.com/ehtesum/seal_with_kg_no_hallucination)
-*PyTorch • Knowledge Graphs • SPARQL*  
-A safe conversational assistant for health-related advice. Fact-checks symptoms against an active RDF knowledge graph before replying, safely abstaining when evidence is unverified.
+### 2. [5G NR PDCP Packet Reorder Engine](https://github.com/ehtesum/5G_reorder)
+*C++17 • POSIX Sockets • Multi-threading • 3GPP TS 38.323*  
+Lightweight user-space C++17 implementation of the 3GPP 5G New Radio PDCP sequence reordering layer. Handles out-of-order UDP packet arrivals via lock-safe multi-threaded sliding receive windows and configurable t-Reordering low-latency flush timers.
 
 ---
 
-### 4. [5G Packet Reorder Engine](https://github.com/ehtesum/5G_reorder)
-*C++17 • POSIX Sockets • Multi-threading*  
-A fast, lightweight C++ daemon that puts out-of-order 5G UDP packets back in sequence using a multi-threaded sliding window and low-latency flush timers.
+### 3. [GVoC Engine — Visual Document Reasoning](https://github.com/ehtesum/gvoc-engine)
+*PyTorch • Vision-Language Models • Test-Time Compute*  
+Cost-aware test-time compute allocation and dual-view crop routing for dense tables and charts. Diagnoses legibility blur in document images, achieving 91.0% accuracy on DocVQA and TableBench with 28.1% fewer reasoning tokens than multi-agent debate.
 
 ---
 
-### 5. [LinkPreview API](https://github.com/ehtesum/link_preview_api)
-*FastAPI • Python • Redis*  
-A sub-40ms OpenGraph metadata microservice with built-in SSRF protection that blocks private subnets and cloud metadata endpoints. Tested across 33 automated test suites.
+### 4. [Cognitive-Guard (STRAND)](https://github.com/ehtesum/cognitive-guard)
+*PyTorch • Epistemic Security • Causal Inference*  
+Real-time epistemic defense protecting LLMs against multi-source "generative montage" attacks. Couples a lightweight confidence-shift triage gate with causal claim verification, halting 81.2% of manipulation attempts while bypassing 87.5% of routine queries.
 
 ---
 
-## Other Notable Engineering Projects
+### 5. [ClinSafe-AI Guardrails](https://github.com/ehtesum/clinsafe-ai)
+*PyTorch • Knowledge Graphs • Calibration*  
+Dual-pathway clinical grounding framework combining structured medical Knowledge Graphs with logit-level confidence calibration. Cut hallucination rates by 61.9%–68.2% across LLaMA-3, Mistral, MedAlpaca, and Mental-LLaMA while retaining 100% crisis recall.
+
+---
+
+## Other Notable Public Repositories
 
 | Project | Domain | Tech Stack | Overview |
 | :--- | :--- | :--- | :--- |
-| **[ServerMonitor](https://github.com/ehtesum/server_monitor)** | DevOps | Python, Docker API, systemd | < 15 MB RAM single-node VPS, Docker container, and TLS certificate watchdog with two-way Telegram bot commands. |
-| **[FileShare](https://github.com/ehtesum/file_share)** | WebRTC / P2P | Vanilla JS, WebRTC, Node.js | Zero-cloud, browser-to-browser P2P file and text transfer over local Wi-Fi with 64 KB backpressure chunking (50–100 MB/s). |
-| **[BillSplitter](https://github.com/ehtesum/bill_splitter)** | Web App | React 18, TypeScript, Tailwind | Offline group expense calculator with greedy bipartite debt minimization (O(V+E)) and zero-backend URL hash / QR sync. |
-| **[VaultX](https://github.com/ehtesum/vaultx_pswrd_mngr_andrd)** | Mobile / Security | Kotlin, Jetpack Compose, Keystore | Offline Android password manager using AES-256-GCM backed by hardware StrongBox / Secure Element enclaves. |
-| **[SubTracker](https://github.com/ehtesum/sub_tracker)** | Android | Kotlin, Jetpack Compose, Room | Privacy-first offline subscription manager with exact `AlarmManager` renewal alerts and normalized spend forecasting. |
-| **[WiFiWallSense](https://github.com/ehtesum/wifidensepose_wifi)** | RF Sensing | Python, 802.11 CSI, NumPy/SciPy | Device-free passive motion and presence detection analyzing raw Wi-Fi OFDM subcarrier variance through solid walls. |
-| **[InvoiceManager](https://github.com/ehtesum/invoice_manager)** | Full-Stack | Django 5, PostgreSQL, Celery | Self-hosted freelance invoicing platform with passwordless UUIDv4 portals, zero-drift math, and auto-reminders. |
-| **[GhostTrace](https://github.com/ehtesum/ghosttrace_delete_from_internet)** | OSINT / Privacy | Python, Asyncio | Digital footprint reconnaissance scanning 180+ endpoints with automated GDPR/CCPA Article 17 erasure requests. |
+| **[DGD Framework](https://github.com/ehtesum/dgd-framework)** | AI Reliability | PyTorch, Python | Epistemic entropy steering controller that monitors competing hypotheses to curb post-hoc rationalization. |
+| **[GPU Silicon Benchmarks](https://github.com/ehtesum/graphics_reverse)** | Systems / Hardware | CUDA/PTX, C++ AVX2 | Low-level architecture suite quantifying warp divergence, bank conflicts (up to 25× latency delta), and cache stepping. |
+| **[GhostTrace](https://github.com/ehtesum/ghosttrace_delete_from_internet)** | OSINT / Privacy | Python Asyncio, Tor | Reconnaissance scanner probing 180+ endpoints with automated GDPR Article 17 and CCPA removal notices. |
 
 ---
 
 ## Academic Publications & Research
 
-- **"Low-Cost Heart Rate Sensor and Mental Stress Detection Using Machine Learning"**  
-  *5th International Conference on Trends in Electronics and Informatics (ICOEI 2021)*  
-  IEEE Xplore • [DOI: 10.1109/ICOEI51242.2021.9452873](https://doi.org/10.1109/ICOEI51242.2021.9452873)
+- **"Think Longer or Look Closer? Test-Time Scaling for Visual Document Understanding"**  
+  *Under Review — ACL 2026*  
+  Ehtesum-ul-Islam et al. • Open-Source Code: [gvoc-engine](https://github.com/ehtesum/gvoc-engine)
 
-- **"Empirical Investigation of DevSecOps Practices, Automation, and Security Pipeline Integration in Cloud Infrastructure"**  
-  *M.Sc. Thesis, LUT University (Dec 2025)*  
-  Research on automated vulnerability analysis, CI/CD security gating, container hardening, and cloud reliability engineering.
+- **"STRAND: Detecting Unsupported Causal Inferences in LLMs"**  
+  *Under Review — ACL 2026*  
+  Ehtesum-ul-Islam et al. • Open-Source Code: [cognitive-guard](https://github.com/ehtesum/cognitive-guard)
+
+- **"Low-Cost Heart Rate Sensor and Mental Stress Detection Using Machine Learning"**  
+  *5th International Conference on Trends in Electronics and Informatics (ICOEI 2021), IEEE Xplore*  
+  Asha, N. E. J., Ehtesum-Ul-Islam, & Khan, R. • [DOI: 10.1109/ICOEI51242.2021.9452873](https://doi.org/10.1109/ICOEI51242.2021.9452873)
+
+- **"Literature Review on the Impact of DevSecOps on the Software Development Life Cycle, Enhancing Security Efficiency and Compliance"**  
+  *M.Sc. Thesis Manuscript, LUT University*
+
+---
+
+## Certifications & Workshops
+
+- **Certifications**:
+  - **The Ultimate DevOps Bootcamp** *(Containerization, IT Security & Cloud Administration)*
+  - **Docker and Kubernetes for Beginners** *(Infrastructure Management & Security)*
+- **Workshops & Technical Training**:
+  - **Competitive Programming** *(Advanced Algorithms, Dynamic Programming, and Graph Theory)*
+  - **Enterprise IT Leadership Workshops** *(Technical Governance & Cross-Functional Coordination)*
+  - **Android Application Development** *(Native Architecture, Lifecycle Management, and Storage)*
 
 ---
 
@@ -80,16 +95,16 @@ A sub-40ms OpenGraph metadata microservice with built-in SSRF protection that bl
 
 | Category | Technologies & Tools |
 | :--- | :--- |
-| **Languages** | C++ (C++17/20), Python 3.13, Kotlin, TypeScript, SQL, Bash |
-| **Backend & Systems** | POSIX Concurrency (`std::mutex`, pthreads), FastAPI, Django, Node.js, Redis, Zero-Trust Architecture |
-| **Networking & Protocols** | 3GPP 5G NR (PDCP TS 38.323, RLC AM, GTP-U), WebRTC DataChannels, UDP/TCP Sockets, TLS Handshakes |
-| **AI & Machine Learning** | PyTorch, HuggingFace Transformers, Quantized LLM Inference, Knowledge Graphs (RDF/SPARQL), Vision-Language Models |
-| **Cloud & DevOps** | Linux, Docker, Docker Compose, systemd, Kubernetes, GitHub Actions CI/CD, Microsoft Azure |
+| **Languages** | Python, C++ (C++17/20), SQL, Bash, TypeScript |
+| **Backend & Systems** | Django, Django REST Framework, FastAPI, PostgreSQL (3NF/BCNF, B-Tree indexing, query tuning), Redis (Lua), RabbitMQ, Apache Kafka, JWT/OAuth2/RBAC |
+| **Networking & Protocols** | 3GPP 5G NR (PDCP TS 38.323), UDP/TCP Sockets, TLS Handshakes, REST APIs |
+| **AI & Machine Learning** | PyTorch, Hugging Face Transformers, vLLM, llama.cpp, Vision-Language Models, Knowledge Graphs (RDF/SPARQL), Uncertainty Calibration |
+| **Cloud, DevOps & IT/OT** | Docker, Docker Compose, Kubernetes, Linux (Ubuntu/Debian), Microsoft Azure, AWS, NGINX, SSL/TLS, GitHub Actions CI/CD, ITGC Support, SOX Frameworks |
 
 ---
 
 ## Contact
 
 - **Email**: [ehtesumulislam@gmail.com](mailto:ehtesumulislam@gmail.com)
-- **LinkedIn**: [linkedin.com/in/ehtesum-ul-islam-01274a166](https://linkedin.com/in/ehtesum-ul-islam-01274a166/)
-- **Web Portfolio**: [ehtesum.github.io/portfolio_web](https://ehtesum.github.io/portfolio_web/)
+- **LinkedIn**: [linkedin.com/in/ehtesum](https://www.linkedin.com/in/ehtesum/)
+- **Website**: [ehtesum.github.io](https://ehtesum.github.io/)
