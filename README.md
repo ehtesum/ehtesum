@@ -63,11 +63,11 @@ Dual-pathway clinical grounding framework combining structured medical Knowledge
 ## Academic Publications & Research
 
 - **"Think Longer or Look Closer? Test-Time Scaling for Visual Document Understanding"**  
-  *Under Review — ACL 2026*  
+  *Submitted — Target: JMIR*
   Ehtesum-ul-Islam et al. • Open-Source Code: [gvoc-engine](https://github.com/ehtesum/gvoc-engine)
 
 - **"STRAND: Detecting Unsupported Causal Inferences in LLMs"**  
-  *Under Review — ACL 2026*  
+  *Under Review — NAACL, Oct 2026*
   Ehtesum-ul-Islam et al. • Open-Source Code: [cognitive-guard](https://github.com/ehtesum/cognitive-guard)
 
 - **"Low-Cost Heart Rate Sensor and Mental Stress Detection Using Machine Learning"**  
